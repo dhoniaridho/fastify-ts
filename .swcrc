@@ -5,12 +5,16 @@
             "syntax": "typescript",
             "tsx": true,
             "dynamicImport": false,
-            "decorators": true
+            "decorators": true,
+            "dts": true
         },
         "target": "es5",
         "loose": false,
         "externalHelpers": false,
         "keepClassNames": false
     },
-    "minify": false
+    "minify": true,
+    "module": {
+        "type": "commonjs"
+    }
 }

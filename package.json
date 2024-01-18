@@ -5,7 +5,8 @@
         "dev": "ts-node-dev --respawn ./src/index.ts",
         "build": "rimraf build && pnpm lint && swc ./src -d build",
         "build:watch": "swc ./src -d build -w",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "start": "node build/index.js"
     },
     "devDependencies": {
         "@swc/cli": "^0.1.63",
